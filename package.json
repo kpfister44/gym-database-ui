@@ -1,0 +1,18 @@
+{
+  "name": "cs340_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && npm run copy",
+    "copy": "ncp src/index.html dist/index.html && ncp src/css dist/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
