@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && npm run copy",
-    "copy": "ncp src/index.html dist/index.html && ncp src/css dist/css"
+    "copy": "ncp src/ dist/ && ncp src/css dist/css"
   },
   "keywords": [],
   "author": "",
