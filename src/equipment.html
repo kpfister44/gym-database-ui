@@ -8,10 +8,20 @@
 </head>
 <body>
     <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="members.html">Manage Members</a>
+            <a href="classes.html">Manage Classes</a>
+            <a href="instructors.html">Manage Instructors</a>
+            <a href="equipment.html">Manage Equipment</a>
+            <a href="maintenanceRequests.html">Manage Maintenance Requests</a>
+            <a href="classInstructors.html">Manage Class Instructors</a>
+            <a href="memberClasses.html">Manage Member Classes</a>
+        </nav>
         <h1>Add/Edit Equipment</h1>
         <form id="equipmentForm">
-            <label for="type">Type:</label>
-            <input type="text" id="type" name="type" required>
+            <label for="equipmentType">Type:</label>
+            <input type="text" id="equipmentType" name="equipmentType" required>
 
             <label for="purchaseDate">Purchase Date:</label>
             <input type="date" id="purchaseDate" name="purchaseDate" required>
@@ -29,7 +39,7 @@
             <thead>
                 <tr>
                     <th>Equipment ID</th>
-                    <th>Type</th>
+                    <th>Equipment Type</th>
                     <th>Purchase Date</th>
                     <th>Maintenance Schedule</th>
                     <th>Lifespan (Years)</th>

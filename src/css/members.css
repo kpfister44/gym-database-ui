@@ -4,7 +4,24 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
 }
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+}
 
+nav a:hover {
+    text-decoration: underline;
+}
 .container {
     max-width: 800px;
     margin: auto;

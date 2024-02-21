@@ -8,6 +8,16 @@
 </head>
 <body>
     <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="members.html">Manage Members</a>
+            <a href="classes.html">Manage Classes</a>
+            <a href="instructors.html">Manage Instructors</a>
+            <a href="equipment.html">Manage Equipment</a>
+            <a href="maintenanceRequests.html">Manage Maintenance Requests</a>
+            <a href="classInstructors.html">Manage Class Instructors</a>
+            <a href="memberClasses.html">Manage Member Classes</a>
+        </nav>
         <h1>Member Class Registrations</h1>
         <form id="memberClassForm">
             <label for="memberId">Member ID:</label>
@@ -33,7 +43,7 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Sample Row -->
+                <!-- Sample Rows -->
                 <tr>
                     <td>1</td>
                     <td>2</td>
@@ -43,9 +53,28 @@
                         <button>Delete</button>
                     </td>
                 </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>2021-02-15</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>2021-03-20</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
                 <!-- Rows will be dynamically generated here -->
             </tbody>
         </table>
     </div>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
