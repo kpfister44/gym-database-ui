@@ -33,12 +33,16 @@
         </form>
 
         <h2>Current Registrations</h2>
+        <div>
+            <label for="searchInput">Search by Class ID or Member ID:</label>
+            <input type="text" id="searchInput" oninput="filterTableBySearch()" placeholder="Type to search...">
+        </div>
         <table>
             <thead>
                 <tr>
-                    <th>Member ID</th>
-                    <th>Class ID</th>
-                    <th>Registration Date</th>
+                    <th>Member ID <span class="sort-indicator">&#x25B2;&#x25BC;</span></th>
+                    <th>Class ID <span class="sort-indicator">&#x25B2;&#x25BC;</span></th>
+                    <th>Registration Date <span class="sort-indicator">&#x25B2;&#x25BC;</span></th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -75,6 +79,6 @@
             </tbody>
         </table>
     </div>
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="/js/main.js"></script>
 </body>
 </html>

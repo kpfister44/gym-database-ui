@@ -34,6 +34,15 @@ nav a:hover {
 h1, h2 {
     color: #333;
 }
+.sort-indicator {
+    font-size: 0.8em; 
+    color: #646464; 
+    margin-left: 5px; 
+    cursor: pointer;
+}
+.sort-indicator:hover {
+    color: #000; 
+}
 
 table {
     width: 100%;
