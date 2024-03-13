@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es2018", // Node.js version-specific target
+      "module": "commonjs",
+      "outDir": "./dist/backend",
+      "rootDir": "./src/backend",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/backend/**/*"]
+  }
