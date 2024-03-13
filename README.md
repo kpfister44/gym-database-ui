@@ -1,7 +1,9 @@
 # Gym Database Management Web App
 
 ## Overview
-This web app is a Gym Database Management system designed to facilitate the management of gym-related data. Built with Svelte, it offers a sleek user interface for performing Create, Read, Update, and Delete (CRUD) operations on a MySQL database. The backend is powered by Express, providing a robust API for data manipulation.
+This web app is a Gym Database Management system designed to facilitate the management of gym-related data. Built with Svelte, it offers a simple user interface for performing Create, Read, Update, and Delete (CRUD) operations on a MySQL database. The backend is powered by Express, providing a robust API for data manipulation. 
+
+I created this as a hobby project to learn how to manipulate a database using a UI. The web app can definitely be further refinded. Features such as frontend form validation, styling, and further refining the db schema to better match the needs of a gym, could all be added, but I haven't gotten around to it yet.
 
 ## Features
 - **Manage Members**: Add, view, update, and delete gym members.
