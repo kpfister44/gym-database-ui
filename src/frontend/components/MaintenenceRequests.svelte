@@ -28,7 +28,7 @@
 
     async function submitMaintenenceRequest() {
         // Validation: Check if all required fields are filled
-        if (!equipmentId || !requestDate || !resolved) {
+        if (!equipmentId || !requestDate) {
             console.error('All fields are required');
             return;
         }

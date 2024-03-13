@@ -25371,7 +25371,7 @@ var app = (function () {
 				t = text(t_value);
 				option.__value = option_value_value = /*equipmentItem*/ ctx[24].equipmentId;
 				set_input_value(option, option.__value);
-				add_location(option, file$1, 140, 20, 4562);
+				add_location(option, file$1, 140, 20, 4549);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, option, anchor);
@@ -25919,9 +25919,9 @@ var app = (function () {
 				option.__value = "";
 				set_input_value(option, option.__value);
 				option.disabled = true;
-				add_location(option, file$1, 176, 28, 6170);
+				add_location(option, file$1, 176, 28, 6157);
 				if (/*editingState*/ ctx[5].equipmentId === void 0) add_render_callback(() => /*select_change_handler_1*/ ctx[14].call(select));
-				add_location(select, file$1, 175, 24, 6095);
+				add_location(select, file$1, 175, 24, 6082);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, select, anchor);
@@ -26003,7 +26003,7 @@ var app = (function () {
 				t = text(t_value);
 				option.__value = option_value_value = /*equipmentItem*/ ctx[24].equipmentId;
 				set_input_value(option, option.__value);
-				add_location(option, file$1, 178, 32, 6316);
+				add_location(option, file$1, 178, 32, 6303);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, option, anchor);
@@ -27221,9 +27221,9 @@ var app = (function () {
 				t3 = space();
 				create_component(tablebody.$$.fragment);
 				attr_dev(p, "class", "mt-1 text-sm font-normal text-gray-500 dark:text-gray-400");
-				add_location(p, file$1, 159, 8, 5339);
+				add_location(p, file$1, 159, 8, 5326);
 				attr_dev(caption, "class", "p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800");
-				add_location(caption, file$1, 157, 4, 5192);
+				add_location(caption, file$1, 157, 4, 5179);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, caption, anchor);
@@ -27451,19 +27451,19 @@ var app = (function () {
 				option.__value = "";
 				set_input_value(option, option.__value);
 				option.disabled = true;
-				add_location(option, file$1, 138, 16, 4439);
+				add_location(option, file$1, 138, 16, 4426);
 				attr_dev(select, "id", "equipmentId");
 				select.required = true;
 				if (/*equipmentId*/ ctx[0] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[11].call(select));
-				add_location(select, file$1, 137, 12, 4363);
-				add_location(div0, file$1, 135, 8, 4276);
-				add_location(div1, file$1, 144, 8, 4712);
-				add_location(div2, file$1, 148, 8, 4898);
+				add_location(select, file$1, 137, 12, 4350);
+				add_location(div0, file$1, 135, 8, 4263);
+				add_location(div1, file$1, 144, 8, 4699);
+				add_location(div2, file$1, 148, 8, 4885);
 				attr_dev(div3, "class", "grid gap-6 mb-6 md:grid-cols-2");
-				add_location(div3, file$1, 134, 4, 4223);
+				add_location(div3, file$1, 134, 4, 4210);
 				attr_dev(form, "id", "maintenanceRequestForm");
 				attr_dev(form, "class", "bg-white dark:bg-gray-800 p-5");
-				add_location(form, file$1, 133, 0, 4099);
+				add_location(form, file$1, 133, 0, 4086);
 			},
 			l: function claim(nodes) {
 				throw new Error_1("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -27686,7 +27686,7 @@ var app = (function () {
 
 		async function submitMaintenenceRequest() {
 			// Validation: Check if all required fields are filled
-			if (!equipmentId || !requestDate || !resolved) {
+			if (!equipmentId || !requestDate) {
 				console.error('All fields are required');
 				return;
 			}
