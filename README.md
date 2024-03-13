@@ -40,7 +40,7 @@ npm install
 Navigate to `http://localhost:5516` (or your configured port) to access the Gym Database Management web app. From the dashboard, you can select different sections like Members, Classes, Equipment, and Instructors to perform various operations.
 
 ## Screenshots
-The main dashboard of the webb app:
+The main dashboard of the web app:
 ![Dashboard](https://github.com/kpfister44/gym-database-ui/blob/main/screenshots/dashboard.png "Dashboard View")
 
 The class management screen, with the tab in view
